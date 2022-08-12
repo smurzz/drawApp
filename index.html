@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="libraries/p5.dom.min.js"></script>
+    <script language="javascript" type="text/javascript" src="libraries/addons/p5.sound.min.js"></script>
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/logo.png">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawIt</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <h3>DrawIt</h3>
+                </li>
+                <li class="menuFunctions">
+                    <button type="button" class="btn" id="zoomIn" title="Zoom in">
+                        <span class="iconify" data-icon="akar-icons:zoom-in"></span>
+                    </button>
+                    <button type="button" class="btn" id="zoomOut" title="Zoom out">
+                        <span class="iconify" data-icon="akar-icons:zoom-out"></span>
+                    </button>
+                    <button type="button" class="btn" id="undoButton" title="Undo (Strg + Z)">
+                        <span class="iconify" data-icon="ri:arrow-go-back-line"></span>
+                    </button>
+                    <button type="button" class="btn" id="redoButton" title="Redo (Strg + Y)">
+                        <span class="iconify" data-icon="ri:arrow-go-forward-line"></span>
+                    </button>
+                    <button type="button" class="btn" id="clearButton" title="Clear all (Del)">
+                        <span class="iconify" data-icon="ri:delete-bin-line"></span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn" id="saveButton" title="Save paint (Strg + S)">
+                        <span class="iconify" data-icon="ri:download-line"></span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="canvas">
+        </div>
+    </main>
+    <aside>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <button type="button" class="btn-sb" id="square" title="Square brush">
+                        <span class="iconify" data-icon="ri:brush-2-fill"></span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn-sb" id="round" title="Round brush">
+                        <span class="iconify" data-icon="ri:brush-fill"></span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn-sb" id="textInput" title="Text">
+                        <span class="iconify" data-icon="ri:font-color"></span>
+                    </button>
+                </li>
+                <li>
+                    <input type="color" class="btn-sb" id="colorP" title="Color"/>
+                </li>
+                <li>
+                    <button type="button" class="btn-sb" id="eraser" title="Eraser">
+                        <span class="iconify" data-icon="ri:eraser-line"></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebarSlider">
+            <ul>
+                <li>
+                    <input type="range" class="slider" id="sliderSquare" min="1" max="51" value="5" step="5">
+                </li>
+                <li>
+                    <input type="range" class="slider" id="sliderRound" min="1" max="51" value="5" step="5" >
+                </li>
+                <li id="contForSlider">
+                    <!-- <input type="range" class="slider" id="sliderText" min="8" max="56" value="14" step="2" > -->
+                </li>
+            </ul>
+
+        </div>
+    </aside> -->
+    <footer>
+        <p>
+            Created <i class="fa fa-heart"></i> by
+            <a target="_blank" href="mailto:s51006@bht-berlin.de">Sofya Murzakova</a>(917840) | Drawing App | HCI 
+        </p>
+    </footer> -->
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
